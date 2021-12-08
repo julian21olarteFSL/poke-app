@@ -12,7 +12,7 @@ const Pokemon = ({ pokemon }) => {
 export default function Pokemons({ pokemons }) {
   return (
     <div className={styles.container}>
-      <p>Pokemons App index</p>
+      <p data-testid='title'>Pokemons App</p>
       <Image alt="pokeapp" src={"/pokeapp.png"} width={200} height={200} />
 
       <ul>
